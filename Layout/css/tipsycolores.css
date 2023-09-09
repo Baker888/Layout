@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: sienna;
+    color: peru;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -66,21 +66,23 @@ header{
 }
 
 span:hover{
-    color: rgb(77, 28, 0);
+    color: rgb(177, 56, 0);
     font-size: 1.15rem;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 select{
     padding: 10px;
     border-radius: 4px;
+    margin-right: 8px;
+    width: 350px;
 }
 
 .buscar{
-    margin-left: 4px;
+    margin-left: 2px;
     padding: 8px;
     border-radius: 0 0 20px 0;
-    width: 120px;
+    width: 123px;
     color: white;
     background-color: gray;
     font-weight: bold;
@@ -93,9 +95,47 @@ select{
     background-position: center;
 }
 
+.empre{
+    color: black;
+    font-size: x-small;
+}
 
+.empre:hover{
+    font-size: 0.85rem !important;
+    font-weight: bold;
+    color: dimgray;
+}
 
+.margin0{
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+.entremedio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    opacity: 85%;
+    width: 100%;
+}
+
+.imgEntre{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.img1{background-image: url("../idea.png");}
+.img2{background-image: url("../promo.jpeg");}
+.img3{background-image: url("../eventos.jpg");}
 
 
 
@@ -176,7 +216,6 @@ body{color: dimgray !important; padding: 0; width: 100%; max-width: 1650px; marg
 .h80 {height: 80px;}
 .publi {width: 80%; height: 80%;}
 
-.img1 {background-image: url(../img/image1.jpg); background-size: cover; background-position: center;}
 /******************* ALTURAS **************/
 
 li{float: left; list-style: none;}
@@ -222,8 +261,8 @@ p{padding-top: 20px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 a{
